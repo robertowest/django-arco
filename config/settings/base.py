@@ -12,8 +12,18 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# /project
+#     /apps
+#     /config
+#         /settings
+#             base.py
+#     /static
+# 
+# FILE = os.path.abspath(__file__)                         == /project/config/settings/base.py
+# os.path.dirname(FILE)                                    == /project/config/settings
+# os.path.dirname(os.path.dirname(FILE))                   == /project/config
+# os.path.dirname(os.path.dirname(os.path.dirname(FILE)))  == /project
 
 
 # Quick-start development settings - unsuitable for production
@@ -21,12 +31,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'lf8b4b9xrm7f@x7jz46zlzl+wslamziy_!rc%-+hd#%_rbq0d1'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -39,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # aplicaciones de terceros para DESA y PROD
     'ckeditor',
+    # aplicaciones propias para para DESA y PROD
+    'apps.home',
 ]
 
 MIDDLEWARE = [
@@ -70,17 +76,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
-
-
-# Database
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
 
 
 # Password validation
