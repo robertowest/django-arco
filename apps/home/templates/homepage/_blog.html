@@ -1,0 +1,41 @@
+{% load static %}
+
+<div id="colorlib-blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 animate-box colorlib-heading animate-box">
+                <span class="sm">Noticias Recientes</span>
+                <h2><span class="thin">Nuestro</span> <span class="thick">Blog</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu interdum quam. Morbi ut urna pellentesque, posuere neque et, finibus velit. Ut non enim</p>
+                <p><a href="#">Ver todas las noticias <i class="icon-arrow-right3"></i></a></p>
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="wrap">
+                        <div class="blog-entry animate-box">
+                            <a href="blog.html" class="blog-img" style="background-image: url({% static 'images/blog-1.jpg' %});"></a>
+                            <div class="desc">
+                                <span>&mdash; 1 Ene, 2020 </span>
+                                <h2><a href="#">Título de la Noticia</a></h2>
+                            </div>
+                        </div>
+                        <div class="blog-entry animate-box">
+                            <a href="blog.html" class="blog-img" style="background-image: url({% static 'images/blog-2.jpg' %});"></a>
+                            <div class="desc">
+                                <span>&mdash; 10 Ene, 2020 </span>
+                                <h2><a href="#">Título de la Noticia</a></h2>
+                            </div>
+                        </div>
+                        <div class="blog-entry animate-box">
+                            <a href="blog.html" class="blog-img" style="background-image: url({% static 'images/blog-3.jpg' %});"></a>
+                            <div class="desc">
+                                <span>&mdash; 20 Ene, 2020 </span>
+                                <h2><a href="#">Título de la Noticia</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
