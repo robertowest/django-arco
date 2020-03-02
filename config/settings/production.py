@@ -1,3 +1,5 @@
+import django_heroku
+
 from .base import *
 
 # redefinimos la ruta de inicio
@@ -40,3 +42,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # # python manage.py collectstatic
 # PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 # STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
