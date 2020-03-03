@@ -11,8 +11,6 @@ from . import models
 def home(request):
     return render (request, 'homepage/index.html', {})
 
-def original(request):
-    return render (request, 'homepage/original.html', {})
 
 
 # class IndexView(generic.TemplateView):

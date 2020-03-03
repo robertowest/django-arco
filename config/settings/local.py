@@ -22,6 +22,10 @@ DATABASES = {
 }
 
 
+# autenticación
+AUTH_PASSWORD_VALIDATORS = []
+
+
 # internalización
 LANGUAGE_CODE = 'es'
 TIME_ZONE = 'America/Argentina/Tucuman'

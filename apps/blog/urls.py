@@ -13,8 +13,7 @@ app_name = "blog"
 # ]
 
 urlpatterns = [
-    path('', views.IndexView.as_view(), name='home'),
-    # path('blog/', views.PostList.as_view(), name='post_list'),
+    path('', views.PostListView.as_view(), name='post_list'),
     # path('blog/<slug:slug>/', views.PostDetail.as_view(), name='post_detail'),
     # path('categoria/<int:pk>/', views.CategoriaListView.as_view(), name='categoria_list'),
     # path('producto/<int:pk>/', views.ProductoDetail.as_view(), name='producto_detail'),

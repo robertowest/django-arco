@@ -1,5 +1,6 @@
 from django.contrib.auth.models import User
 from django.db import models
+from django.utils.text import slugify
 from ckeditor.fields import RichTextField
 
 # Create your models here.
@@ -26,16 +27,16 @@ class Tag(models.Model):
 
 
 class Post(models.Model):
-    author = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name = "Autor ")
-    category = models.ForeignKey(Category, on_delete=models.CASCADE)
-    slug = models.SlugField(max_length=128)
-    title = models.CharField(max_length = 50,verbose_name = "Título ")
-    tags = models.ManyToManyField(Tag)
-    content = RichTextField()
-    background_image = models.FileField(blank = True, null = True)
+    author = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name = 'Autor')
+    category = models.ForeignKey(Category, on_delete=models.CASCADE, blank = True, null = True)
+    slug = models.SlugField(blank = True, null = True)
+    title = models.CharField(max_length = 50, verbose_name = 'Título')
+    tags = models.ManyToManyField(Tag, blank = True, null = True)
+    content = RichTextField(verbose_name = 'Contenido')
+    background_image = models.FileField('Imágen', blank = True, null = True)
     created_on = models.DateField(auto_now_add=True)
     updated_on = models.DateField(auto_now=True)
-    publish_on = models.DateField()
+    publish_on = models.DateField('Publicado ', blank = True, null = True)
     
     # configuración para admin
     list_display = ('title', 'category', 'tags', 'author', 'publish_on', 'created_on', 'updated_on')
@@ -50,6 +51,11 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+    def save(self, *args, **kwargs):
+        if not self.id:
+            self.slug = slugify(self.title)
+        super(Post, self).save(*args, **kwargs)
 
     # def save(self, *args, **kwargs):
     #     webfile = urllib2.urlopen(self.background_image)

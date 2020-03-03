@@ -24,7 +24,7 @@ class PostListView(generic.ListView):
     model = models.Post
 
     def get_queryset(self):
-        return models.Post.objects.filter(active=1).order_by('publish_on')[:5]  # obtenemos 5 noticias
+        return models.Post.objects.order_by('publish_on')[:5]  # obtenemos 5 noticias
 
 
 # def posts(request):
