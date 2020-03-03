@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'ckeditor',
     # aplicaciones propias para para DESA y PROD
     'apps.home',
+    'apps.blog',
 ]
 
 MIDDLEWARE = [

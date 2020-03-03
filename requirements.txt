@@ -4,7 +4,7 @@ django-debug-toolbar
 
 # solo en heroku
 gunicorn
-psycopg2
+# psycopg2
 django-heroku
 python-decouple
 whitenoise
