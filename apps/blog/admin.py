@@ -1,17 +1,21 @@
 from django.contrib import admin
 from . import models
 
-admin.site.register(models.Post)
+@admin.register(models.Category)
+class CategoryAdmin(admin.ModelAdmin):
+    pass
 
-# @admin.register(Article)
-# class ArticleAdmin(admin.ModelAdmin):
 
-#     list_display = ["title","author","created_date"]
+@admin.register(models.Tag)
+class TagAdmin(admin.ModelAdmin):
+    pass
 
-#     list_display_links = ["title","created_date"]
 
-#     search_fields = ["title"]
-
-#     list_filter = ["created_date"]
-#     class Meta:
-#         model = Article
+@admin.register(models.Post)
+class PostAdmin(admin.ModelAdmin):
+    list_display = models.Post.list_display
+    list_display_links = models.Post.list_display_links
+    exclude = models.Post.exclude
+    search_fields = models.Post.search_fields
+    list_filter = models.Post.list_filter
+    date_hierarchy = models.Post.date_hierarchy

@@ -139,7 +139,7 @@ CKEDITOR_CONFIGS = {
             {'name': 'toolBar', 'items': ['Maximize', 'ShowBlocks', 'Source']},
         ],
         'height': 291,
-        'width': '100%',
+        'width': 800,
         'tabSpaces': 4,
     }
 }
