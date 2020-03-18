@@ -12,9 +12,10 @@ import sys
 
 from django.core.wsgi import get_wsgi_application
 
-if 'runserver' in sys.argv:
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.local')
-else:
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.production')    
+# if 'runserver' in sys.argv:
+#     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.local')
+# else:
+#     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.production')    
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.local')
 
 application = get_wsgi_application()

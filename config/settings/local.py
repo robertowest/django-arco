@@ -6,7 +6,7 @@ from .base import *
 FILE_DIR = os.path.abspath(__file__)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(FILE_DIR)))
 DEBUG = True
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['*']
 
 
 # aplicaciones para desarrollo
@@ -20,6 +20,10 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+
+# autenticación
+AUTH_PASSWORD_VALIDATORS = []
 
 
 # internalización

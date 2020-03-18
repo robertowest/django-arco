@@ -6,11 +6,12 @@ import sys
 
 def main():
     # aquí determino si utilizaré una configuración para DEV o PROD
-    if 'runserver' in sys.argv:
-        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.local')
-    else:
-        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.production')    
-
+    # if 'runserver' in sys.argv:
+    #     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.local')
+    # else:
+    #     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.production')    
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings.local')
+    
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

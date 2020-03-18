@@ -1,7 +1,9 @@
 from django.shortcuts import render, HttpResponse, redirect, get_object_or_404, reverse
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+# ..views.generic import ListView, DetailView, UpdateView, CreateView, DeleteView, FormView
 from django.views import generic
+
 
 # Create your views here.
 from . import models
@@ -16,6 +18,13 @@ class IndexView(generic.TemplateView):
     #     busqueda = request.POST.get("producto")
     #     context['post'] = models.Post.objects.filter(title__contains = keyword)
     #     context['pages'] = models.Entries.objects.filter(section='home').filter(active=1).order_by('ordered')
+
+
+class PostListView(generic.ListView):
+    model = models.Post
+
+    def get_queryset(self):
+        return models.Post.objects.order_by('publish_on')[:5]  # obtenemos 5 noticias
 
 
 # def posts(request):
