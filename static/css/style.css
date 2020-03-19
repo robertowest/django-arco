@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: scale(1.1);
 }
 #colorlib-hero {
-  min-height: 700px;
+  /* min-height: 700px; */
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  min-height: 650px;
+  min-height: 250px;
   position: relative;
 }
 #colorlib-hero .flexslider .slides li .overlay {
