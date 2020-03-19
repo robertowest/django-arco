@@ -1,5 +1,5 @@
 # django-arco
-
+El proyecto está asociado entre github y heroku
 
 
 # Crea nuevo proyecto
