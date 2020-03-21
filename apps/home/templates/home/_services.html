@@ -1,0 +1,32 @@
+{% load static %}
+
+<div id="colorlib-services" class="colorlib-light-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 animate-box colorlib-heading animate-box">
+                <span class="sm">Servicios</span>
+                <h2><span class="thin">Guía de Ofertas y</span> <span class="thick">Servicios</span></h2>
+                <p>En esta sección encontrará todo lo que usted necesita para realizar su obra.</p>
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="wrap">
+                        {% for obj in services %}
+                        <div class="col-md-6 animate-box">
+                            <div class="services">
+                                <span class="icon">
+                                    <i class="{{obj.image}}"></i>
+                                </span>
+                                <div class="desc">
+                                    <h3>{{obj.label}}</h3>
+                                    <p>{{obj.text_short|default_if_none:""}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

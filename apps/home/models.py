@@ -7,22 +7,22 @@ def upload_path_handler(instance, filename):
 
 
 class Sections(models.Model):
-    # SECTION = (('home', 'Inicio'), ('about', 'Acerca de'), ('service', 'Servicio'), ('team', 'Equipo'),
-    #            ('work', 'Trabajo'), ('opinion', 'Testimonial'), ('pricing', 'Precios'),
-    #            ('blog', 'Anuncios (blog)'), ('contact', 'Contacto'))
-
-    # Home Projects Services Blog About Contact
-
     SECTION = (('home', 'Inicio'),
-               ('project', 'Proyectos'),
-               ('services', 'Servicios'),
+               ('nav', 'Nav'),
+               ('slides', 'Slides'),
+               ('welcome', 'Welcome'),
+               ('works', 'Works'),
+               ('counter', 'Counter'),
+               ('services', 'Services'),
                ('blog', 'Blog'),
-               ('catalog', 'Catalogo Items'),
-               ('about', 'Acerca de'),
-               ('contact', 'Contacto'))
+               ('team', 'Team'),
+               ('testimony', 'Testimony'),
+               ('subscribe', 'Subscribe'),
+               ('footer', 'Footer'))
 
     section = models.CharField('Sección', max_length=15, choices=SECTION, default='home')
     label = models.CharField('Etiqueta', max_length=50)
+    link = models.CharField(max_length=100, blank=True, null=True)
     text_short = models.CharField('Texto breve', max_length=254, blank=True, null=True)
     text_large = RichTextField(verbose_name="Texto largo", blank=True, null=True)
     image = models.FileField(upload_to=upload_path_handler, blank=True, null=True)

@@ -38,7 +38,7 @@ class Post(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE, blank = True, null = True, verbose_name = 'Categoría')
     slug = models.SlugField(blank = True, null = True)
     title = models.CharField(max_length = 50, verbose_name = 'Título')
-    tags = models.ManyToManyField(Tag, blank = True, null = True)
+    tags = models.ManyToManyField(Tag)
     content = RichTextField(verbose_name = 'Contenido')
     background_image = models.FileField('Imágen', upload_to=upload_post_path_handler, blank=True, null=True)
     created_on = models.DateField(auto_now_add=True, verbose_name = 'Creado')

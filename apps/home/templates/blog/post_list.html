@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <div id="colorlib-blog">
+        <div class="container">
+            <div class="row">
+                {% for object in object_list %}
+                <article class="animate-box">
+                    <div class="blog-img" style="background-image: url('/media/{{ object.background_image }}'); height: 200px;"></div>
+                    <div class="entry">
+                        <div class="meta text-center">
+                            <p>
+                                <span>{{object.publish_on|date:'F'}}</span>
+                                <span>{{object.publish_on|date:'D'}} {{object.publish_on|date:'j'}}</span>
+                            </p>
+                        </div>
+                        <h2>
+                            <a href="{% url 'blog:post_detail' object.pk %}">{{object.title}}</a>
+                        </h2>
+                        <p class="meta-2">
+                            <span>
+                                <i class="icon-user"></i> {{object.author.username}}
+                            </span> <span>
+                                <i class="icon-dropbox"></i> {{object.category}}</span>
+                        </p>
+                        {{object.content|safe|truncatechars:250}}
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

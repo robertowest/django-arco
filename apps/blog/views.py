@@ -24,7 +24,17 @@ class PostListView(generic.ListView):
     model = models.Post
 
     def get_queryset(self):
-        return models.Post.objects.order_by('publish_on')[:5]  # obtenemos 5 noticias
+        # models.Post.objects.order_by('publish_on')[:5]  # obtenemos 5 noticias
+        return models.Post.objects.order_by('publish_on')
+
+
+class PostDetailView(generic.DetailView):
+    model = models.Post
+    template_name = 'blog/post_detail.html'
+
+    # def get_context_data(self, **kwargs):
+    #     context = super().get_context_data(**kwargs)
+    #     return context
 
 
 # def posts(request):

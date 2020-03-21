@@ -2,6 +2,8 @@ django
 django-ckeditor
 django-debug-toolbar
 
+pyyaml
+
 # solo en heroku
 gunicorn
 # psycopg2

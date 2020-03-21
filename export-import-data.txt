@@ -1,0 +1,30 @@
+#
+# Extraer datos de la tabla
+#
+
+# homepage
+./manage.py dumpdata --format yaml --output apps/home/fixtures/sections.yaml home.sections
+
+# blog
+./manage.py dumpdata --format yaml -o apps/blog/fixtures/category.yaml blog.category
+./manage.py dumpdata --format yaml -o apps/blog/fixtures/tag.yaml      blog.tag
+./manage.py dumpdata --format yaml -o apps/blog/fixtures/post.yaml     blog.post
+./manage.py dumpdata --format yaml -o apps/blog/fixtures/comment.yaml  blog.comment
+
+
+#
+# Cargar datos a la tabla
+#
+./manage.py loaddata sections
+./manage.py loaddata category
+./manage.py loaddata tag
+./manage.py loaddata post
+./manage.py loaddata comment
+
+
+# local
+# ./manage.py loaddata equivalencia --settings=config.settings.local
+
+# produccion
+# heroku run python manage.py loaddata equivalencia --settings=config.settings.heroku
+

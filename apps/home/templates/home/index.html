@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+    {% include 'home/_slides.html' %}
+
+    {% for obj in pages %}
+        {% with template_name='home/_'|add:obj.link|add:'.html' %}
+            {% if obj.text_short %}
+                <section id="{{obj.link}}">
+                    {% include template_name %}
+                </section>            
+            {% else %}
+                {% include template_name %}
+            {% endif %}
+        {% endwith %}
+    {% endfor %}
+
+{% endblock %}
+
+
+{% comment %}
+    {% include 'home/_nav.html' %}
+    {% include 'home/_slides.html' %}
+
+    {% include 'home/_welcome.html' %}
+    {% include 'home/_works.html' %}
+    
+    {% include 'home/_team.html' %}
+
+    {% include 'home/_services.html' %}
+    {% include 'home/_counter.html' %}
+    {% include 'home/_blog.html' %}
+    {% include 'home/_testimony.html' %}
+    {% include 'home/_subscribe.html' %}
+    
+    {% include 'home/_footer.html' %}
+
+{% endcomment %}

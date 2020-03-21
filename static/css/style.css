@@ -924,12 +924,12 @@ article .blog-img {
   z-index: -1;
 }
 article .entry {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   margin-top: -5em;
   z-index: 1;
   background: #fff;
-  padding: 5em 9em;
+  padding: 6em 2em;
   position: relative;
 }
 @media screen and (max-width: 768px) {

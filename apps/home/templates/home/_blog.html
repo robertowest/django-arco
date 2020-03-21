@@ -1,0 +1,33 @@
+{% load static %}
+
+<div id="colorlib-blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 animate-box colorlib-heading animate-box">
+                <span class="sm">Noticias</span>
+                <h2><span class="thin">Nuestro</span> <span class="thick">Blog</span></h2>
+                <p>Explore nuestro blog para conocer otros recursos, artículos, reflexiones e ideas que le inspiren en su proyecto. Aquí encontrará nuevas formas de conectarse con Profesionales de la construcción.</p>
+                <p><a href="{% url 'blog:post_list' %}">Ver todas las noticias <i class="icon-arrow-right3"></i></a></p>
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="wrap">
+                        {% for obj in blog %}
+                        <div class="blog-entry animate-box">
+                            <a href="{% url 'blog:post_detail' obj.pk %}" class="blog-img" 
+                               style="background-image: url('/media/{{ obj.background_image }}');">
+                            </a>
+                            <div class="desc">
+                                <span>&mdash; {{obj.publish_on}} </span>
+                                <h2>
+                                    <a href="{% url 'blog:post_detail' obj.pk %}">{{obj.title}}</a>
+                                </h2>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

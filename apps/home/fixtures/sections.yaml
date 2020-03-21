@@ -1,0 +1,176 @@
+- model: home.sections
+  pk: 1
+  fields:
+    section: home
+    label: Home
+    link: nav
+    text_short: <span class="icon-home"></span> Home
+    text_large: ''
+    image: ''
+    ordered: 1
+    active: true
+- model: home.sections
+  pk: 2
+  fields:
+    section: home
+    label: Welcome
+    link: welcome
+    text_short: <span class="icon-happy2"></span> Welcome
+    text_large: null
+    image: ''
+    ordered: 2
+    active: false
+- model: home.sections
+  pk: 3
+  fields:
+    section: home
+    label: Works
+    link: works
+    text_short: <span class="icon-hammer"></span> Works
+    text_large: null
+    image: ''
+    ordered: 3
+    active: false
+- model: home.sections
+  pk: 4
+  fields:
+    section: home
+    label: counter
+    link: counter
+    text_short: null
+    text_large: null
+    image: ''
+    ordered: 4
+    active: false
+- model: home.sections
+  pk: 5
+  fields:
+    section: home
+    label: Servicios
+    link: services
+    text_short: <span class="icon-briefcase2"></span> Services
+    text_large: null
+    image: ''
+    ordered: 5
+    active: true
+- model: home.sections
+  pk: 6
+  fields:
+    section: home
+    label: Blog
+    link: blog
+    text_short: <span class="icon-book"></span> Blog
+    text_large: null
+    image: ''
+    ordered: 6
+    active: true
+- model: home.sections
+  pk: 7
+  fields:
+    section: home
+    label: Team
+    link: team
+    text_short: <span class="icon-users"></span> Team
+    text_large: null
+    image: ''
+    ordered: 7
+    active: false
+- model: home.sections
+  pk: 8
+  fields:
+    section: home
+    label: Testimony
+    link: testimony
+    text_short: <span class="icon-bubbles2"></span> Testimony
+    text_large: null
+    image: ''
+    ordered: 8
+    active: false
+- model: home.sections
+  pk: 9
+  fields:
+    section: home
+    label: Subscribe
+    link: subscribe
+    text_short: null
+    text_large: null
+    image: ''
+    ordered: 9
+    active: true
+- model: home.sections
+  pk: 10
+  fields:
+    section: home
+    label: Footer
+    link: footer
+    text_short: null
+    text_large: null
+    image: ''
+    ordered: 10
+    active: true
+- model: home.sections
+  pk: 11
+  fields:
+    section: services
+    label: Arquitectos
+    link: null
+    text_short: null
+    text_large: null
+    image: flaticon-sketch
+    ordered: 1
+    active: true
+- model: home.sections
+  pk: 12
+  fields:
+    section: services
+    label: Ingenieros
+    link: null
+    text_short: null
+    text_large: null
+    image: flaticon-engineer
+    ordered: 2
+    active: true
+- model: home.sections
+  pk: 13
+  fields:
+    section: services
+    label: Constructoras
+    link: null
+    text_short: null
+    text_large: null
+    image: flaticon-crane
+    ordered: 3
+    active: true
+- model: home.sections
+  pk: 14
+  fields:
+    section: services
+    label: Delineantes
+    link: null
+    text_short: null
+    text_large: null
+    image: flaticon-engineering
+    ordered: 4
+    active: true
+- model: home.sections
+  pk: 15
+  fields:
+    section: services
+    label: Brokers
+    link: null
+    text_short: null
+    text_large: null
+    image: flaticon-skyline
+    ordered: 5
+    active: true
+- model: home.sections
+  pk: 16
+  fields:
+    section: services
+    label: Proveedores
+    link: null
+    text_short: null
+    text_large: null
+    image: flaticon-conveyor
+    ordered: 6
+    active: true

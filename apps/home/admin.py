@@ -5,7 +5,8 @@ from . import models
 
 
 class SectionsAdmin(admin.ModelAdmin):
-    list_display = ['section', 'label', 'ordered', 'active']
+    list_display = ['ordered', 'label', 'link', 'active']
+    list_display_links = ['label']
     ordering = ['section', 'ordered']
 
     list_filter = ['section', 'active']
