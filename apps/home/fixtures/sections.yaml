@@ -15,11 +15,11 @@
     section: home
     label: Welcome
     link: welcome
-    text_short: <span class="icon-happy2"></span> Welcome
+    text_short: null
     text_large: null
     image: ''
     ordered: 2
-    active: false
+    active: true
 - model: home.sections
   pk: 3
   fields:
@@ -113,7 +113,7 @@
   fields:
     section: services
     label: Arquitectos
-    link: null
+    link: /resource/list/
     text_short: null
     text_large: null
     image: flaticon-sketch

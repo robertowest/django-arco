@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     # aplicaciones propias para para DESA y PROD
     'apps.home',
     'apps.blog',
+    'apps.recurso',
 ]
 
 MIDDLEWARE = [

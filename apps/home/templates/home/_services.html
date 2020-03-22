@@ -15,7 +15,9 @@
                         <div class="col-md-6 animate-box">
                             <div class="services">
                                 <span class="icon">
-                                    <i class="{{obj.image}}"></i>
+                                    <a href="{{obj.link|default_if_none:'#'}}">
+                                        <i class="{{obj.image}}"></i>
+                                    </a>                                    
                                 </span>
                                 <div class="desc">
                                     <h3>{{obj.label}}</h3>

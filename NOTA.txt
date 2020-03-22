@@ -1,0 +1,32 @@
+Host
+    ec2-3-229-210-93.compute-1.amazonaws.com
+Database
+    d9586i61kih6up
+User
+    vrxudzfzprooyf
+Port
+    5432
+Password
+    4b888f6842d776f62b15aef3c7e72f1a91c13f1d06b8c5cbea0e43301c9aa0b6
+URI
+    postgres://vrxudzfzprooyf:4b888f6842d776f62b15aef3c7e72f1a91c13f1d06b8c5cbea0e43301c9aa0b6@ec2-3-229-210-93.compute-1.amazonaws.com:5432/d9586i61kih6up
+Heroku CLI
+    heroku pg:psql postgresql-reticulated-39461 --app arcotuc
+
+
+
+
+Host
+    ec2-3-91-112-166.compute-1.amazonaws.com
+Database
+    dfgmkdpc6aihlp
+User
+    sbgsdoavionrbs
+Port
+    5432
+Password
+    74fe50b36187169c0b273ec770b3c90ab38d6cba558bc553ade0030c0c5fad1b
+URI
+    postgres://sbgsdoavionrbs:74fe50b36187169c0b273ec770b3c90ab38d6cba558bc553ade0030c0c5fad1b@ec2-3-91-112-166.compute-1.amazonaws.com:5432/dfgmkdpc6aihlp
+Heroku CLI
+    heroku pg:psql postgresql-cubed-68520 --app lubresrl

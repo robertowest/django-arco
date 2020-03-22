@@ -20,6 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('apps.home.urls')),
     path('blog/', include('apps.blog.urls')),
+    path('resource/', include('apps.recurso.urls')),
 ]
 
 # STATIC FILES

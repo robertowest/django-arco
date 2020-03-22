@@ -1,0 +1,255 @@
+- model: blog.post
+  pk: 1
+  fields:
+    author: 1
+    category: 1
+    slug: premio-obra-del-ano-2020
+    title: "Premio Obra del A\xF1o 2020"
+    content: "<p>Te invitamos a participar del premio <a href=\"https://www.plataformaarquitectura.cl/cl/tag/obra-del-ano\"\
+      >Obra del A&ntilde;o</a> 2020. En su decimosegunda versi&oacute;n les pedimos\
+      \ que reconozcan las obras que est&aacute;n creando el mayor impacto en el entorno\
+      \ construido. Al nominar y votar, est&aacute;s siendo parte de una red independiente\
+      \ e imparcial que nos ha ayudado constantemente a celebrar la arquitectura de\
+      \ todas las escalas, prop&oacute;sitos y condiciones, de pa&iacute;ses grandes\
+      \ y peque&ntilde;os. Quedan pocos d&iacute;as para <a href=\"https://oda.plataformaarquitectura.cl/cl/2020?utm_medium=website&amp;utm_source=plataformaarquitectura.cl\"\
+      \ target=\"_blank\">nominar a tu obra favorita,</a> y que de entre 1000 proyectos\
+      \ se filtren a solo 15.</p>\r\n\r\n<p>Recuerda, los usuarios registrados podr&aacute;n\
+      \ nominar su proyecto favorito una vez por d&iacute;a. La nominaci&oacute;n\
+      \ finaliza el <strong>lunes 23 de marzo del 2020 a las 23:59 (GMT-3)</strong>.\
+      \ Gracias una vez m&aacute;s por ayudarnos a continuar democratizando la arquitectura.</p>"
+    background_image: post/noticias/00001.jpg
+    created_on: 2020-03-21
+    updated_on: 2020-03-21
+    publish_on: 2020-03-21
+    tags:
+    - 1
+- model: blog.post
+  pk: 2
+  fields:
+    author: 1
+    category: 1
+    slug: cuales-son-las-mejores-universidades-para-estudiar
+    title: "Cu\xE1les son las mejores universidades para estudiar"
+    content: "<p>Quacquarelli Symonds <a href=\"https://www.topuniversities.com/university-rankings/university-subject-rankings/2020/architecture?utm_medium=website&amp;utm_source=plataformaarquitectura.cl\"\
+      \ target=\"_blank\">public&oacute; su ranking anual</a> con las mejores universidades\
+      \ del mundo. Basado en la reputaci&oacute;n acad&eacute;mica, la reputaci&oacute;n\
+      \ del empleador y el impacto de investigaci&oacute;n, el ranking destaca cada\
+      \ a&ntilde;o las mejores universidades para cada campo profesional. Para el\
+      \ 2020, la clasificaci&oacute;n de Arquitectura y Entorno Construido, ha regresado\
+      \ al primer lugar el Instituto de Tecnolog&iacute;a de Massachusetts (MIT).</p>\r\
+      \n\r\n<p>Despu&eacute;s de cuatro a&ntilde;os consecutivos dominando el ranking,\
+      \ el Instituto de Tecnolog&iacute;a de Massachusetts el a&ntilde;o pasado dio\
+      \ un paso al lado para otorgar el primer puesto a la Escuela de Arquitectura\
+      \ Bartlett de <a href=\"https://www.plataformaarquitectura.cl/cl/tag/university-college-london\"\
+      >University College London</a>. Sin embargo, hoy nuevamente encabeza las listas.\
+      \ Adem&aacute;s, en esta edici&oacute;n, la Universidad Tecnol&oacute;gica de\
+      \ Delft en los Pa&iacute;ses Bajos ocup&oacute; el segundo lugar, mientras que\
+      \ <a href=\"https://www.plataformaarquitectura.cl/cl/tag/university-college-london\"\
+      >University College London</a> ocup&oacute; el tercer lugar, <a href=\"https://www.plataformaarquitectura.cl/cl/tag/eth-zurich\"\
+      >ETH Zurich</a> qued&oacute; en el cuarto lugar y <a href=\"https://www.plataformaarquitectura.cl/cl/tag/harvard\"\
+      >Harvard</a> en el quinto.</p>\r\n\r\n<p>A continuaci&oacute;n, la lista completa\
+      \ de las mejores universidades del mundo para estudiar arquitectura en 2020</p>\r\
+      \n\r\n<p><img alt=\"\" src=\"https://images.adsttc.com/media/images/5e67/6f48/b357/658e/fb00/025f/slideshow/shutterstock_685407808.jpg\"\
+      \ style=\"height:100%; width:100%\" /></p>\r\n\r\n<p>1. Instituto de Tecnolog&iacute;a\
+      \ de Massachusetts (MIT) - Estados Unidos<br />\r\n2. <a href=\"https://www.plataformaarquitectura.cl/cl/tag/delft-university\"\
+      >Delft University</a> of Technology - Pa&iacute;ses Bajos<br />\r\n3. <a href=\"\
+      https://www.plataformaarquitectura.cl/cl/tag/ucl\">UCL</a> - Reino Unido<br\
+      \ />\r\n4. <a href=\"https://www.plataformaarquitectura.cl/cl/tag/eth-zurich\"\
+      >ETH Zurich</a> - Instituto Federal Suizo de Tecnolog&iacute;a - Suiza<br />\r\
+      \n5. <a href=\"https://www.plataformaarquitectura.cl/cl/tag/harvard\">Harvard</a>\
+      \ University - Estados Unidos<br />\r\n6. Universidad de California, Berkeley\
+      \ (UCB) - Estados Unidos<br />\r\n7. Politecnico di Milano - Italia<br />\r\n\
+      8. Escuela de arquitectura Manchester - Reino Unido<br />\r\n9. Universidad\
+      \ de Cambridge - Reino Unido<br />\r\n10. EPFL - Suiza<br />\r\n11. Universidad\
+      \ de Tsinghua - China<br />\r\n12. Universidad Nacional de Singapur (NUS) -\
+      \ Singapur<br />\r\n13. Universidad de Columbia - Estados Unidos<br />\r\n14.\
+      \ Universidad de Hong Kong - Hong Kong, China<br />\r\n15. Universidad de California,\
+      \ Los &Aacute;ngeles (UCLA) - EE. UU.<br />\r\n16. Universidad de Tokio - Jap&oacute;n<br\
+      \ />\r\n17. Universidad de Melbourne - Australia<br />\r\n18. Universidad de\
+      \ Sydney - Australia<br />\r\n19. Universidad de Tongji - China<br />\r\n20.\
+      \ KTH Real Instituto de Tecnolog&iacute;a - Suecia</p>\r\n\r\n<p>21. Universitat\
+      \ Polit&egrave;cnica de Catalunya &middot; BarcelonaTech - Espa&ntilde;a<br\
+      \ />\r\n22. Universidad Polit&eacute;cnica de Hong Kong - Hong Kong, China<br\
+      \ />\r\n23. Universidad de Sheffield - Reino Unido<br />\r\n24. Technische Universit&auml;t\
+      \ Berlin (TU Berlin) - Alemania<br />\r\n25. Universidad RMIT - Australia<br\
+      \ />\r\n26. Universidad T&eacute;cnica de Munich - Alemania<br />\r\n27. Universidad\
+      \ de Nueva Gales del Sur (UNSW Sydney) - Australia<br />\r\n28. Cornell University\
+      \ - Estados Unidos<br />\r\n29. Instituto de Tecnolog&iacute;a de Georgia -\
+      \ Estados Unidos<br />\r\n29. Universidad de Stanford - Estados Unidos<br />\r\
+      \n31. Universidad Nacional de Se&uacute;l - Corea del Sur<br />\r\n32. Universidad\
+      \ de Columbia Brit&aacute;nica - Canad&aacute;<br />\r\n33. Politecnico di Torino\
+      \ - Italia<br />\r\n34. Universidad de Michigan-Ann Arbor - Estados Unidos<br\
+      \ />\r\n35. Universidad Polit&eacute;cnica de Madrid - Espa&ntilde;a<br />\r\
+      \n36. Pontificia Universidad Cat&oacute;lica de Chile (UC) - Chile<br />\r\n\
+      37. Chalmers University of Technology - Suecia<br />\r\n38. Universidad de Cardiff\
+      \ - Reino Unido<br />\r\n38. Universidad de Texas en Austin - EE. UU.<br />\r\
+      \n38. Universidad de Toronto - Canad&aacute;<br />\r\n41. Universidad Aalto\
+      \ - Finlandia<br />\r\n41. Universidad&nbsp;McGill - Canad&aacute;<br />\r\n\
+      43. Universidad de S&atilde;o Paulo - Brasil<br />\r\n44. Universidad de Pennsylvania\
+      \ - Estados Unidos<br />\r\n45. KU Leuven&nbsp;- B&eacute;lgica<br />\r\n46.\
+      \ Universidad tecnol&oacute;gica Eindhoven - Pa&iacute;ses Bajos<br />\r\n47.\
+      \ Universidad Jiao Tong de Shanghai - China<br />\r\n48. Universidad de Kyoto\
+      \ - Jap&oacute;n<br />\r\n49. Universidad Nacional Aut&oacute;noma de M&eacute;xico\
+      \ (UNAM) - M&eacute;xico<br />\r\n50. Universidad de Illinois en Urbana-Champaign\
+      \ - Estados Unidos</p>\r\n\r\n<p>51. Universidad Carnegie Mellon - Estados Unidos<br\
+      \ />\r\n52. Universidad de Hong Kong - Hong Kong, China<br />\r\n53. Universidad\
+      \ de Curtin - Australia<br />\r\n54. Universidad Hanyang - Corea del Sur<br\
+      \ />\r\n55. Instituto Tecnol&oacute;gico Harbin - China<br />\r\n56. Instituto\
+      \ de Tecnolog&iacute;a de Illinois -&nbsp;Estados Unidos<br />\r\n57. KIT, Instituto\
+      \ de Tecnolog&iacute;a de Karlsruhe - Alemania<br />\r\n58. Universidad de Corea\
+      \ - Corea<br />\r\n59. Universidad Loughborough - Reino Unido<br />\r\n60. Universidad\
+      \ de Lund - Suecia<br />\r\n61. Universidad Monash - Australia<br />\r\n62.\
+      \ Universidad T&eacute;cnica Nacional de Atenas - Grecia<br />\r\n63. Universidad\
+      \ de Nueva York (NYU) - Estados Unidos<br />\r\n64. Newcastle University - Reino\
+      \ Unido<br />\r\n65. Universidad Noruega de Ciencia y Tecnolog&iacute;a - Noruega<br\
+      \ />\r\n66. Universidad de Oxford Brookes - Reino Unido<br />\r\n67. Universidad\
+      \ Pensilvania State - Estados Unidos<br />\r\n68. Universidad Princeton - Estados\
+      \ Unidos<br />\r\n69. Universidad Tecnol&oacute;gica de Queensland (QUT) - Australia<br\
+      \ />\r\n70. RWTH Universidad de Aquisgr&aacute;n - Alemania<br />\r\n71. Universidad\
+      \ Sapienza de Roma - Italia<br />\r\n72. Universidad del Sudeste - China<br\
+      \ />\r\n73. Universidad Tecnol&oacute;gica de Viena - Austria<br />\r\n74. Universidad\
+      \ Texas A&amp;M - Estados Unidos<br />\r\n75. Universidad China de Hong Kong\
+      \ (CUHK) - Hong Kong, China<br />\r\n76. Universidad de Auckland - Nueva Zelanda<br\
+      \ />\r\n77. Universidad de Queensland - Australia<br />\r\n78. Universidad de\
+      \ Tianjin - China<br />\r\n79. Universidad de Buenos Aires (UBA) - Argentina<br\
+      \ />\r\n80. Universidad de Chile - Chile<br />\r\n81. Universidad Nacional de\
+      \ Colombia - Colombia<br />\r\n82. Universidade Federal do Rio de Janeiro -\
+      \ Brasil<br />\r\n83. Universit&agrave; Iuav di Venezia - Italia<br />\r\n84.\
+      \ Universit&auml;t Stuttgart - Alemania<br />\r\n85. Universiti Malaya (UM)\
+      \ - Malasia<br />\r\n86. Universiti Sains Malaysia (USM) - Malasia<br />\r\n\
+      87. Universiti Teknologi Malaysia - Malasia<br />\r\n88.&nbsp;Universidad de\
+      \ Bath - Reino Unido<br />\r\n89. UCT Graduate School of Business - Sud&aacute;frica<br\
+      \ />\r\n90. La Universidad de Edimburgo - Reino Unido<br />\r\n91. Universidad\
+      \ de Lisboa - Portugal<br />\r\n92.&nbsp;Universidad de Oporto - Portugal<br\
+      \ />\r\n93. Universidad de lectura - Reino Unido<br />\r\n94. Universidad del\
+      \ Sur de California - Estados Unidos<br />\r\n95. Universidad Tecnol&oacute;gica\
+      \ de Sydney - Australia<br />\r\n96. Virginia Polytechnic Institute and State\
+      \ University - Estados Unidos<br />\r\n97. Universidad de Waseda - Jap&oacute;n<br\
+      \ />\r\n98. Yale University&ndash; Estados Unidos<br />\r\n99. Universidad de\
+      \ Yonsei - Corea del Sur<br />\r\n100. Universidad de Zhejiang - China</p>\r\
+      \n\r\n<p>Conoce el resto de la lista en la p&aacute;gina oficial de <a href=\"\
+      https://www.plataformaarquitectura.cl/cl/935970/topuniversities.com/university-rankings/university-subject-rankings/2020/architecture\"\
+      \ target=\"_blank\">QS World University Rankings</a>.</p>"
+    background_image: post/noticias/00002.jpg
+    created_on: 2020-03-21
+    updated_on: 2020-03-21
+    publish_on: 2020-03-21
+    tags:
+    - 1
+- model: blog.post
+  pk: 3
+  fields:
+    author: 1
+    category: 1
+    slug: preparandonos-para-un-mundo-nuevo
+    title: "Prepar\xE1ndonos para un mundo nuevo"
+    content: "<p>Queridas arquitectas y arquitectos,</p>\r\n\r\n<p>Ahora que ralentizamos\
+      \ nuestras rutinas para reducir el impacto de la pandemia del <a href=\"https://www.plataformaarquitectura.cl/cl/tag/covid-19\"\
+      >COVID-19</a>, queremos compartir con ustedes c&oacute;mo hemos enfrentado esta\
+      \ situaci&oacute;n como la empresa global que somos, y lo que estamos haciendo\
+      \ (junto a ustedes) para mantenernos a nosotros mismos &mdash;la comunidad arquitect&oacute;nica&mdash;,\
+      \ informada y conectada. Es nuestra responsabilidad.</p>\r\n\r\n<p>Como una\
+      \ compa&ntilde;&iacute;a global con oficinas en cinco pa&iacute;ses y gente\
+      \ trabajando en diez naciones distintas en Asia, Europa, Ocean&iacute;a, Medio\
+      \ Oriente y Am&eacute;rica, nos enfrentamos esta pandemia por primera vez cuando\
+      \ nuestra oficina en China entr&oacute; en cuarentena durante el A&ntilde;o\
+      \ Nuevo Chino. Nuestro equipo en China comparti&oacute; con nosotros su perspectiva\
+      \ sobre lo que esto significaba para su trabajo y su rutina diaria, y desde\
+      \ el otro lado del mundo, vimos c&oacute;mo algo que consideramos tan lejano,\
+      \ comenzaba a&nbsp;expandirse, llegando cada vez m&aacute;s cerca de casa.</p>\r\
+      \n\r\n<p>ArchDaily es tan fuerte como cada una de las personas de nuestro equipo.\
+      \ Nuestra prioridad es el bienestar de quienes trabajan con nosotros, y en vista\
+      \ de esta responsabilidad, pasamos a trabajar desde nuestras casas &mdash;modalidad\
+      \ conocida como teletrabajo o <em>home office</em>&mdash; con tal de estar seguros\
+      \ y contribuir a la contenci&oacute;n de esta pandemia.</p>\r\n\r\n<p>De hecho,\
+      \ esta fue una estrategia de larga data en <a href=\"https://www.plataformaarquitectura.cl/cl/tag/archdaily\"\
+      >ArchDaily</a>, ya que el trabajo remoto es parte de nuestro ADN. No obstante,\
+      \ incluso teniendo las plataformas y los flujos de trabajo preparados para trabajar\
+      \ desde casa, el riesgo del aislamiento social sigue siendo alto, y estamos\
+      \ tomando medidas no solo para trabajar <em>online</em>, sino tambi&eacute;n\
+      \ para estar conectados y apoyarnos mutuamente.</p>\r\n\r\n<p><a class=\"js-image-size__link\
+      \ lazy-anchor\" href=\"https://www.plataformaarquitectura.cl/cl/936028/preparandonos-para-un-mundo-nuevo-esto-es-lo-que-estamos-haciendo-junto-a-ustedes/5e74a1a6b35765492a0004fe-preparing-for-a-new-world-what-we-are-doing-together-with-you-photo\"\
+      \ style=\"width: 640px; height: 360px;\"><img alt=\"ArchDailyers trabajando\
+      \ desde sus respectivos hogares. Imagen \xA9 ArchDaily\" class=\"b-lazy b-loaded\"\
+      \ longdesc=\"https://www.plataformaarquitectura.cl/cl/936028/preparandonos-para-un-mundo-nuevo-esto-es-lo-que-estamos-haciendo-junto-a-ustedes/5e74a1a6b35765492a0004fe-preparing-for-a-new-world-what-we-are-doing-together-with-you-photo\"\
+      \ src=\"https://images.adsttc.com/media/images/5e74/a1a6/b357/6549/2a00/04fe/newsletter/Slide1.jpg?1584701856\"\
+      \ /> </a></p>\r\n\r\n<p>A medida que se anuncian la postergaci&oacute;n de conferencias\
+      \ y ferias internacionales, comenzamos a reflexionar sobre&nbsp;lo que pod&iacute;a\
+      \ significar esto para los canales digitales. Cuando el Salone, la Bienal de\
+      \ Venecia y la AIA Conference fueron pospuestos, las oportunidades se dieron\
+      \ para hacer algunos de sus eventos <em>online</em>, tales como lanzamiento\
+      \ de productos, conferencias, debates y paneles de&nbsp;discusi&oacute;n. Pero\
+      \ era importante no&nbsp;acelerarse, ya que la situaci&oacute;n global se volv&iacute;a\
+      \ cada vez m&aacute;s delicada como para &uacute;nicamente posponer eventos.</p>\r\
+      \n\r\n<p>A medida que el mundo baja su velocidad, hemos visto c&oacute;mo r&aacute;pidamente\
+      \ la mayor&iacute;a de las firmas de arquitectura en Europa y Am&eacute;rica\
+      \ han cerrado sus oficinas y han decidido trabajar desde casa. Para firmas de\
+      \ mediana y gran escala con sistemas bien organizados, esto fue un movimiento\
+      \ r&aacute;pido. Para otras, es m&aacute;s dif&iacute;cil.</p>\r\n\r\n<p>Como\
+      \ profesi&oacute;n, tenemos una profunda habilidad para colaborar, intercambiar\
+      \ y trabajar interdisciplinariamente, as&iacute; que adoptar oportunidades <em>online</em>\
+      \ tiene un gran potencial. En <a href=\"https://www.plataformaarquitectura.cl/cl/tag/archdaily\"\
+      >ArchDaily</a> estamos comprometidos como equipo a ayudarles a enfrentar los\
+      \ desaf&iacute;os en este proceso, de manera que puedan aprender y crecer, sacando\
+      \ lo mejor de esto. En este momento estamos enfocados en conectar firmas, compartiendo\
+      \ experiencias y sus mejores pr&aacute;cticas, y colaborativamente construir\
+      \ la red de conocimiento que nos ayudar&aacute; a superar los actuales desaf&iacute;os.</p>\r\
+      \n\r\n<p>Ya estamos&nbsp;presenciando este r&aacute;pido cambio en nuestra industria\
+      \ a trav&eacute;s de nuestras m&eacute;tricas. Nuestro tr&aacute;fico ha crecido\
+      \ sostenidamente durante las &uacute;ltimas semanas y&nbsp;en China esto ha&nbsp;ido\
+      \ de la mano&nbsp;junto&nbsp;a las esperanzadoras noticias de que el pa&iacute;s\
+      \ est&aacute; volviendo a la normalidad despu&eacute;s de esta ralentizaci&oacute;n.</p>\r\
+      \n\r\n<p>La formaci&oacute;n arquitect&oacute;nica, con sus metodolog&iacute;as\
+      \ de&nbsp;taller e intensos intercambios de ideas y cr&iacute;ticas cara a cara,\
+      \ de seguro&nbsp;se ve desafiada a medida que la&nbsp;formaci&oacute;n est&aacute;\
+      \ forzada a moverse a un mundo <em>online</em>. En los &uacute;ltimos d&iacute;as,\
+      \ hemos visto c&oacute;mo muchas instituciones acad&eacute;micas, tales como\
+      \ el IE y GSD r&aacute;pidamente&nbsp;adoptaron plataformas digitales para continuar\
+      \ ense&ntilde;ando y muchas conferencias han sido transmitidas en&nbsp;formatos\
+      \ nuevos, m&aacute;s personales y directos. Estamos comprometidos a conectarnos\
+      \ y apoyar&nbsp;acad&eacute;micos y profesores en permanecer conectados con\
+      \ sus estudiantes y compartiendo sus mejores pr&aacute;cticas.</p>\r\n\r\n<p>Las\
+      \ lecciones que aprendamos de esta pandemia tendr&aacute;n un gran impacto en\
+      \ el futuro del dise&ntilde;o, ya sean ciudades, espacios p&uacute;blicos, infraestructuras,\
+      \ el turismo y cualquier otra tipolog&iacute;a arquitect&oacute;nica que construyamos&nbsp;en\
+      \ nuestra sociedad.</p>\r\n\r\n<p>El dise&ntilde;o saludable ser&aacute; la\
+      \ nueva norma: las estrategias pasivas para el confort interior, la ventilaci&oacute;n,\
+      \ la luz natural y la humedad ser&aacute;n imprescindibles. Aplicaremos&nbsp;muchas\
+      \ buenas pr&aacute;cticas de dise&ntilde;o hospitalario en proyectos de otras\
+      \ tipolog&iacute;as. Veremos la aparici&oacute;n de materiales mejorados con\
+      \ propiedades antibacterianas, antis&eacute;pticas y desinfectantes, tanto nuevos\
+      \ como adaptados a los&nbsp; nuevos tiempos. Seremos m&aacute;s conscientes\
+      \ de la composici&oacute;n de los materiales y productos que dan forma a nuestros\
+      \ espacios cotidianos, y las regulaciones impulsar&aacute;n una mayor transparencia\
+      \ y claridad al declarar su impacto en la calidad ambiental de los interiores\
+      \ dise&ntilde;ados. Trabajaremos con los expertos de aquellas &aacute;reas y\
+      \ con los fabricantes que est&aacute;n innovando, para brindarles a ustedes\
+      \ las herramientas necesarias para enfrentar este nuevo mundo.</p>\r\n\r\n<div>\r\
+      \n<div>&nbsp;</div>\r\n</div>\r\n\r\n<p><a class=\"js-image-size__link lazy-anchor\"\
+      \ href=\"https://www.plataformaarquitectura.cl/cl/936028/preparandonos-para-un-mundo-nuevo-esto-es-lo-que-estamos-haciendo-junto-a-ustedes/5e74a190b35765492a0004fd-preparing-for-a-new-world-what-we-are-doing-together-with-you-photo\"\
+      \ style=\"width: 640px; height: 360px;\"><img alt=\"ArchDailyers trabajando\
+      \ desde sus respectivos hogares. Imagen \xA9 ArchDaily\" class=\"b-lazy b-loaded\"\
+      \ longdesc=\"https://www.plataformaarquitectura.cl/cl/936028/preparandonos-para-un-mundo-nuevo-esto-es-lo-que-estamos-haciendo-junto-a-ustedes/5e74a190b35765492a0004fd-preparing-for-a-new-world-what-we-are-doing-together-with-you-photo\"\
+      \ src=\"https://images.adsttc.com/media/images/5e74/a190/b357/6549/2a00/04fd/newsletter/Slide2.jpg?1584701833\"\
+      \ /> </a></p>\r\n\r\n<p><strong>Arquitectos y dise&ntilde;adores:</strong> estamos\
+      \ abiertos y comprometidos a ser una plataforma para compartir sus conocimientos\
+      \ sobre el trabajo a distancia, dise&ntilde;ar con un enfoque sanitario para\
+      \ nuestro nuevo mundo y recursos para la formaci&oacute;n arquitect&oacute;nica\
+      \ <em>online</em>. Somos tan fuertes como la comunidad con la que trabajamos,\
+      \ as&iacute; que no duden en comunicarse con nosotros, a trav&eacute;s de <a\
+      \ href=\"https://www.plataformaarquitectura.cl/cl/contact\" target=\"_blank\"\
+      >este formulario</a>.</p>\r\n\r\n<p><strong>Fabricantes y constructores:</strong>\
+      \ necesitamos aprender c&oacute;mo podemos usar materiales y productos para\
+      \ construir un est&aacute;ndar de dise&ntilde;o m&aacute;s saludable. Estamos\
+      \ abiertos a sus experiencias, especialmente aquellas que implican trabajar\
+      \ con y en nuevos materiales.</p>\r\n\r\n<p>De seguro este ser&aacute; un tiempo\
+      \ de receso y desadaptaci&oacute;n, pero tambi&eacute;n podemos verlo como un\
+      \ tiempo para mantenernos enfocados, una ralentizaci&oacute;n que puede ayudarnos\
+      \ a fortalecer nuestra creatividad, expandir nuestra mente y aprender. Un tiempo\
+      \ para fortalecernos y estar preparados para cuando esto pase... porque suceder&aacute;.</p>"
+    background_image: post/noticias/00003.jpg
+    created_on: 2020-03-21
+    updated_on: 2020-03-21
+    publish_on: 2020-03-21
+    tags:
+    - 1
