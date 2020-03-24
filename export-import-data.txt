@@ -27,7 +27,5 @@
 
 # produccion
 # heroku run python manage.py loaddata sections --settings=config.settings.production
-# heroku run python manage.py loaddata category --settings=config.settings.production
-# heroku run python manage.py loaddata tag --settings=config.settings.production
-# heroku run python manage.py loaddata post --settings=config.settings.production
+# heroku run python manage.py loaddata category tag post --settings=config.settings.production
 
